@@ -1,0 +1,94 @@
+@echo off
+color a
+echo ----------------------------------------------------------------
+echo -----------------------CODED BY---------------------------------
+echo -----------------------   YOCAT     ----------------------------
+echo ----------------------------------------------------------------
+echo karakterinin ismi Ne olsun?
+set /p  adin=
+echo İyi sanslar sana %adin%
+title %adin% 'in Bir Hack Hikayesi
+cls
+pause
+
+msg * Hack ile ugrasan %adin% yeni bir pc siparis ediyor
+msg * %adin% tek tusla internet sitelerini hackleyebilecek bir program yaziyor
+msg * programa isim bulmakta yardimci olur musun?
+
+cls
+
+pause
+echo ----------------------------------------------------------------
+echo -----------------------CODED BY---------------------------------
+echo -----------------------   YOCAT     ----------------------------
+echo ----------------------------------------------------------------
+echo programinin İsmi Ne olsun?
+set /p  program=
+echo isim icin sagol %adin%
+
+:m
+
+cls
+msg * BU ALANDA BILGILERINIZ YAZMAKTADIR
+echo  -------------------------------------------------------------------
+echo  -----------------------Karakterinizin ismi--------------------------
+echo -----------------------   %adin%    --------------------------------
+echo ---------------------------Programinizin adi------------------------
+echo ----------------------------%program%----------------------------------
+
+
+pause 
+
+cls
+
+
+echo ----------------------------------------------------------------
+echo -----------------------CODED BY---------------------------------
+echo -----------------------   YOCAT     ----------------------------
+echo ----------------------------------------------------------------
+echo Bir gorev seciniz
+echo 1.gorev
+echo 2.Gorev
+echo 3.gorev
+echo Kac Numarali gorev:
+set input=nothing
+set/p input=Sec:
+if %input%==1 goto bir
+if %input%==2 goto iki
+if %input%==3 goto üç
+goto m
+pause
+:bir
+pause
+goto a
+:üç
+pause
+goto c
+:iki
+pause
+goto b
+:a
+cls
+echo ----------------------------------------------------------------
+echo -----------------------CODED BY---------------------------------
+echo -----------------------   YOCAT     ----------------------------
+echo ----------------------------------------------------------------
+
+:b
+cls
+echo ----------------------------------------------------------------
+echo -----------------------CODED BY---------------------------------
+echo -----------------------   YOCAT     ----------------------------
+echo ----------------------------------------------------------------
+:c
+cls
+echo ----------------------------------------------------------------
+echo -----------------------CODED BY---------------------------------
+echo -----------------------   YOCAT     ----------------------------
+echo ----------------------------------------------------------------
+to be continued
+to be continued
+to be continued
+to be continued
+
+
